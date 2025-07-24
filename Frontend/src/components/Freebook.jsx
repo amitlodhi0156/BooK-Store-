@@ -64,11 +64,16 @@ function Freebook() {
         <div>
           <h1 className="font-semibold text-xl pb-2">Free Offered Courses</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Accusantium veritatis alias pariatur ad dolor repudiandae eligendi
-            corporis nulla non suscipit, iure neque earum?
+            Start learning today with our free courses and upgrade your skills effortlessly.
+            Unlock new opportunities with expert-curated content across various fields!
           </p>
         </div>
+        <br /><br /><br />
+
+        <p className="text-sm md:text-xl">
+        <span className="text-pink-500">Sorry </span>
+        We Do not Have Any Free Courses Yet
+            </p>
 
         <div>
           <Slider {...settings}>
